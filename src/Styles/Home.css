@@ -1,0 +1,53 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstline{
+    font-size: 40px;
+    margin: 0;
+    padding-left: 10px;
+    font-family:"Roboto Mono", monospace;
+}
+.secondline{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 45px;
+    color: #6998F9;
+    margin: 0;
+    padding: 10px;
+}
+.thirdline{
+    font-size: 25px;
+    font-family:  "Playwrite FR Trad", cursive;
+    margin: 0;
+    padding: 5px;
+    padding-left: 10px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    list-style-type: none;
+}
+li{
+    font-size: 25px;
+    font-family:  "Playwrite FR Trad", cursive;
+    margin: 0;
+    padding: 5px;
+    color: #6998F9;
+}
+@media screen and (max-width:500px) {
+    .firstline{
+        font-size: 20px;
+    }
+    .secondline{
+        font-size: 23px;
+    }
+    .thirdline{
+        font-size: 15px;
+    }
+    li{
+        font-size: 20px;
+    }
+}

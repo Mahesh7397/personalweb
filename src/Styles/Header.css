@@ -1,0 +1,103 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color:#464749;
+    position: relative;
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(82, 80, 80);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: sticky;
+}
+.image{
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+.title-line-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+.title{
+    margin: 0;
+    font-size: 30px;
+    color: #6998F9;
+    font-family:"Playwrite PL", cursive;
+}
+.title-base{
+    margin: 0;
+    color: #ffff;
+    font-size: 13px;
+    font-family:  "Playwrite GB S", cursive;
+}
+.secone{
+    position: absolute;
+    right: 5%;
+    top: 60px;
+    width: 100px;
+    background-color: #292929;
+    border: 2px solid #464749;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    text-align: center;
+    z-index: 2;
+}
+.secone h3{
+    margin: 0
+}
+.secone a {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    margin-left: 6px;
+    height: 20px;
+    font-family: "Playwrite GB S", cursive;
+    color:#6998F9;
+    text-decoration: none;
+}
+.secone ul{
+    padding: 4px;
+    list-style-type: none;
+}
+.butbox{
+    padding: 2%;
+}
+.menubutton{
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border:0;
+}
+.sectwo{
+    width: 57%;
+}
+.sectwo ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.sectwo a{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Playwrite GB S", cursive;
+    color:#6998F9;
+    text-decoration: none;
+}
+/*Mobile display*/
+@media screen and (max-width:480px){
+    .title{
+        font-size: 20px;
+    }
+    .title-base{
+        font-size: 9px;
+    }
+    .image{
+        width: 50px;
+        height: 50px;
+    }
+}
